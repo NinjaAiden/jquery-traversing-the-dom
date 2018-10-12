@@ -6,4 +6,9 @@ $(document).ready(function(){
         $("#panel .container").siblings().fadeTo("slow", .1);
     });
     
+    //on click all panels revert to full opacity
+    $(".superButton").click(function(){
+        $("#panel .container").siblings().fadeTo("fast", 1);
+    })
+    
 });
