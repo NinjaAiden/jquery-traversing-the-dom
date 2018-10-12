@@ -1,7 +1,9 @@
 $(document).ready(function(){
     
+    
+    // on click all panels fade to 10% opacity
     $(".theButton").click(function(){
-        $(this).hide();
+        $("#panel .container").siblings().fadeTo("slow", .1);
     });
     
 });
